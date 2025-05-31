@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .container-fluid {
+  border: 1px solid black;
+  margin: 10px;
+} */
+.container-fluid .row {
+  border: 1px solid black;
+  display: flex;
+  margin: 10px;
+}
+.container-fluid .row .col-sm-2 {
+  height: 100px;
+  background-color: #3498db;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+.container-fluid .row .col-sm-4 {
+  height: 100px;
+  background-color: #3498db;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
